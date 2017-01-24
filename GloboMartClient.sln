@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboMart.WebClient", "GloboMart.WebClient\GloboMart.WebClient.csproj", "{DDE0EA58-8A41-4DC2-95CB-F9F035B01AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboMart.Common.Models", "GloboMart.Common.Models\GloboMart.Common.Models.csproj", "{FBF6E02D-F0E7-4243-993D-867CDEC1FDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboMart.Common.Helpers", "GloboMart.Common.Helpers\GloboMart.Common.Helpers.csproj", "{96DEB75D-6E98-4D73-B509-30ECC56C2E72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GloboMart.Common", "GloboMart.Common", "{B01989B5-605F-41C1-BBA3-F19FA8148E88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE0EA58-8A41-4DC2-95CB-F9F035B01AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE0EA58-8A41-4DC2-95CB-F9F035B01AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE0EA58-8A41-4DC2-95CB-F9F035B01AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE0EA58-8A41-4DC2-95CB-F9F035B01AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF6E02D-F0E7-4243-993D-867CDEC1FDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF6E02D-F0E7-4243-993D-867CDEC1FDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF6E02D-F0E7-4243-993D-867CDEC1FDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF6E02D-F0E7-4243-993D-867CDEC1FDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DEB75D-6E98-4D73-B509-30ECC56C2E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DEB75D-6E98-4D73-B509-30ECC56C2E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DEB75D-6E98-4D73-B509-30ECC56C2E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DEB75D-6E98-4D73-B509-30ECC56C2E72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBF6E02D-F0E7-4243-993D-867CDEC1FDA0} = {B01989B5-605F-41C1-BBA3-F19FA8148E88}
+		{96DEB75D-6E98-4D73-B509-30ECC56C2E72} = {B01989B5-605F-41C1-BBA3-F19FA8148E88}
+	EndGlobalSection
+EndGlobal
